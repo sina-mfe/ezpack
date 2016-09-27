@@ -81,6 +81,7 @@ $ ezpack --help
     -s, --sass              transform sass to css source
     -m, --map               enable js source map
     -d, --debug             enable un-uglify js
+    -h, --http            
     --username <username>   set default svn username
     --pwd <password>        set default svn password
     --command <svncommand>  set default svn command new name
