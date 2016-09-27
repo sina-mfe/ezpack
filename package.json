@@ -1,0 +1,139 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ezpack",
+        "scope": null,
+        "escapedName": "ezpack",
+        "name": "ezpack",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ],
+    [
+      {
+        "raw": "ezpack",
+        "scope": null,
+        "escapedName": "ezpack",
+        "name": "ezpack",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ]
+  ],
+  "_from": "ezpack",
+  "_id": "ezpack@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ezpack",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/ezpack-0.2.0.tgz_1473128963062_0.9002917956095189"
+  },
+  "_npmUser": {
+    "name": "sinafe",
+    "email": "121195713@qq.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ezpack",
+    "scope": null,
+    "escapedName": "ezpack",
+    "name": "ezpack",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ezpack/-/ezpack-0.2.0.tgz",
+  "_shasum": "523978f187697ff216ae3c72114496fbf2420d71",
+  "_shrinkwrap": null,
+  "_spec": "ezpack",
+  "_where": "",
+  "author": {
+    "name": "sinafe"
+  },
+  "bin": {
+    "ezpack": "bin/ezpack"
+  },
+  "bugs": {
+    "url": "https://github.com/sina-mfe/ezpack/issues"
+  },
+  "config": {
+    "unsafe-perm": true
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-es2015-script": "*",
+    "byline": "4.2.1",
+    "colors": "1.1.2",
+    "commander": "2.8.1",
+    "console-stamp": "0.2.0",
+    "cssbeautify": "0.3.1",
+    "cssmin": "0.4.3",
+    "cssurl": "1.3.0",
+    "express": "4.x",
+    "jsonfile": "2.2.2",
+    "log-prefix": "0.0.0",
+    "log-timestamp": "0.1.2",
+    "log4js": "*",
+    "optimist": "0.6.0",
+    "read-json-sync": "1.1.1",
+    "request": "2.62.0",
+    "sass.js": "0.9.2",
+    "svn-interface": "0.4.6",
+    "through2": "2.0",
+    "uglify-js": "2.4.24",
+    "node-watch":"0.4.0"
+  },
+  "description": "a javascript combine dev tools",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-uglify": "~0.2.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "523978f187697ff216ae3c72114496fbf2420d71",
+    "tarball": "https://registry.npmjs.org/ezpack/-/ezpack-0.2.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.12.4"
+  },
+  "gitHead": "9a9d34e31d6895e06688ac7e722d908b06534994",
+  "homepage": "https://github.com/sina-mfe/ezpack",
+  "keywords": [
+    "svn",
+    "http",
+    "combine",
+    "loader"
+  ],
+  "license": "BSD",
+  "main": "./src/index.js",
+  "maintainers": [
+    {
+      "name": "sinafe",
+      "email": "121195713@qq.com"
+    }
+  ],
+  "name": "ezpack",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-mfe/ezpack.git"
+  },
+  "scripts": {
+    "preinstall": "node ./src/install.js",
+    "preuninstall": "node ./src/uninstall.js"
+  },
+  "version": "0.2.6"
+}
